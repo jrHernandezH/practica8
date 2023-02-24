@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logos {
+    width: 50%;
+}
+
+.logoT:hover {
+    transform: scale(1.1, 1.1);
+    margin: 10px 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #eee;
+    /* color de fondo del scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0a0aa0;
+    /* color del scrollbar */
+}
